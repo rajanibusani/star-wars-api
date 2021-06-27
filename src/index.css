@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {  
+  font-family: 'Sawarabi Gothic', sans-serif;
+  background-color:rgb(25, 25, 27);  
+  color:rgb(224, 210, 210);
+}
+.header{ 
+  font-size: 2.5rem; 
+  text-transform: uppercase;
+  font-style: italic;
+}
+.loader{
+  font-size: 1.5rem;   
+}
+.pagination li a{
+  color:yellow;
+  font-size: 1.2rem;   
+  padding: 0.6rem 0.8rem;
+}
+.pagination {
+margin-top:1rem;  
+justify-content:center;
+}
+.pagination li{
+  border: 2px solid yellow;
+}
+.page-link {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  color: rgb(228, 228, 228);
+  overflow: hidden;  
+}
+.pagination li a:hover {
+  background-color: rgb(156, 131, 131); 
+  color: rgb(192, 192, 192);;
+}
+.table {
+  color: yellow;
+}
+.title-row {
+  color: rgb(240, 240, 240);  
+  cursor: pointer;
+}
+.card-container{
+  margin: 3rem auto;
+  background-color: rgb(61, 59, 68);
+  border-radius: 20px;
+  color:yellow;
+  text-align: center;
+}
+.card-container a{
+  color:yellow;
+  cursor:pointer;  
+}
